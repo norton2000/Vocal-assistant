@@ -1,0 +1,51 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Goodmorning"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "bye",
+     "patterns": ["Bye", "See you later", "Goodbye", "bye-bye", "Have a nice day", "quit", "cancel"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanksgiving",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "presentation",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "What is your name?", "What's your name?" ],
+     "responses": ["I'm Jarvis, the bot receptionist", "I'm Jarvis, an Artificial Intelligent bot"]
+    },
+    {"tag": "helping",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "booking",
+    "patterns": ["I need a room", "I would like to book a room", "is there a room for tomorrow?", "can i have a room?", "how to have a room"],
+    "responses": []
+    },
+	{"tag": "checkIn",
+    "patterns": ["I have a reservation", "Check in", "can i do the check in", "I have to do check in"],
+    "responses": []
+    },
+	{"tag": "alarm",
+    "patterns": ["can i set a alarm", "can you wake me", "can you wake me up at 7:30", "wake me", "wake me up at 10 o'clock", "wake up", "alarm"],
+    "responses": []
+    },
+	{"tag": "key",
+    "patterns": ["can i have my key?", "my key", "we can have our keys", "key room 710", "key room 169"],
+    "responses": []
+    },
+    {"tag": "cost",
+    "patterns": ["how much?", "how much does a room cost?", "how much does a suite cost?", "How much for a room?"],
+    "responses": []
+    },
+	{"tag": "taxi",
+	"patterns": ["taxi","Would you call me a taxi", "I need a taxi", "I have to go to the airport", "a taxi please", "I need a ride", "ride for the airport", "A taxi to the airport","can i have a taxi please"],
+	"responses": []
+	},
+	{"tag": "breakfast",
+	"patterns": ["breakfast", "What time is the breakfast", "Where is the breakfast room"],
+	"responses": ["Breakfast is served from 7 to 10 in the room just to your left", "The good continental breakfast is available in the room on the right from 7 to 10"]
+	}
+]
+}
